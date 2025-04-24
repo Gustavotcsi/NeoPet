@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'rolepermissions',
     'usuarios',
     'estoque',
+    'home',
    
 
 ]
