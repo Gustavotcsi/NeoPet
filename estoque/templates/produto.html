@@ -1,3 +1,10 @@
-<h1>Produto</h1>
+{% extends 'base.html' %}
+{% block 'body' %}
+<div class='container'>
+    {{ form }}
+    <td><a href="{% url "add_produto" %}" class="btn btn-success">Salvar</a></td>
+</div>
 
-{{form}}
+{% endblock %}
+
+
